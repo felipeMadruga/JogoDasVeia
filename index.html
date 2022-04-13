@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>JOGO DAS VÉIA</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>JOGO DAS VÉIA</h1>
+
+        <div class="tabuleiro">
+            <!-- primeira fileira -->
+            <div id="0" class="square"> </div>
+            <div id="1" class="square"> </div>
+            <div id="2" class="square"> </div>
+
+            <!-- segunda fileira -->
+            <div id="3" class="square"> </div>
+            <div id="4" class="square"> </div>
+            <div id="5" class="square"> </div>
+
+            <!-- terceira fileira -->
+            <div id="6" class="square"> </div>
+            <div id="7" class="square"> </div>
+            <div id="8" class="square"> </div>
+
+        </div>
+
+        <div id="winner">vencedores</div>
+
+        <button class="btn" id="btn" onclick="reset()">Jogar de novo</button>
+    </div>
+
+    <div class="container-placar">
+        <h3>PLACAR</h3>
+        <div id="contClo">
+            <p>Clotilde</p>
+            <!-- <img src="./assets/seu-madruga.png" alt=""> -->
+        </div>
+        <div id="contFlo">
+            <p>Florinda</p>
+        </div>
+        <button id="btnZerar" onclick="location.reload()">Zerar placar</button>
+    </div>
+
+    <script src="./scripts/game.js"></script>
+    <script src="./scripts/interface.js"></script>
+
+</body>
+
+</html>
