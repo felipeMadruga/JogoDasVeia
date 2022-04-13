@@ -119,3 +119,4 @@ function hideWinSeq(elem) {                                         // Usa a seq
     }
 }
 
+// REFAZER ESTILO PARA ADAPTAR A TELA DE CELULAR. FICOU MUITO GRANDE O TABULEIRO
